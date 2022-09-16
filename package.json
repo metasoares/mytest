@@ -20,11 +20,15 @@
     "test": "cross-env CI=true ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.11",
     "chai": "^4.2.0",
     "cross-env": "^7.0.2",
     "expect": "^26.1.0",
     "jest-junit": "^11.1.0",
-    "react-test-renderer": "^16.13.1"
+    "postcss": "^8.4.16",
+    "react-router-dom": "^6.4.0",
+    "react-test-renderer": "^16.13.1",
+    "tailwindcss": "^3.1.8"
   },
   "browserslist": {
     "production": [
